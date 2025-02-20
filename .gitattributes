@@ -1,0 +1,6 @@
+# Ensure that text files have consistent line endings
+* text=auto
+
+# Specific files with different line ending handling
+*.sh text eol=lf
+*.bat text eol=crlf
